@@ -16,7 +16,7 @@
 
   <h1>Functions</h1>
 
-  <p>Functions should be familar to you from math. JavaScript has functions, too but they have a different syntax.</p>
+  <p>Functions should be familiar to you from math. JavaScript has functions, too but they have a different syntax.</p>
 
   <h3>Function from Your Math Class</h3>
 
@@ -53,7 +53,8 @@
   <p>POP QUIZ: what is the value at x=20?</p>
   <pre>
     f(20) = 20 * .25 + 5
-    f(20) = ?
+    f(20) = 10 + 5
+    f(20) = 15
   </pre>
 
   <p>I hope you can see the power of functions here!</p>
@@ -89,10 +90,22 @@
   <p>
     Try to use our JavaScript function to solve for x = 20.
     <br>
-    For x = 20...
     f(x) =
     <script>
+      function f(x) {
+        return x * .25 + 5;
+      }
+
+      let b1;
     </script>
+    <p>
+      For x=20...
+      f(x)=
+       <script>
+        b1=f(20);
+        document.write(b1);
+      </script>
+    </p>
   </p>
   <h3>Example 2</h3>
   <p>Let's make a new function. We will call it g(x).</p>
