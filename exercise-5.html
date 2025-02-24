@@ -164,31 +164,124 @@
     For x = 15...
     g(x) =
     <script>
-      z3 = g();
-      document.write();
+      z3 = g(15);
+      document.write(z3);
     </script>
   </p>
   <h4> TODO: You try this one! </h4>
   <p>
     For x = 21...
-    g(x) = ?
+    g(x) = 
     <script>
-
+      z4 = g(21)
+      document.write(z4)
     </script>
   </p>
   <h4> TODO: You try this one! </h4>
   <p>
     For x = 1001...
-    g(x) = ?
+    g(x) = 
     <script>
-
+      z5 = g(1001)
+      document.write(z5)
     </script>
   </p>
 
   <h3>You Try it!</h3>
   <p> If you've gotten this far, try and do one better! The ice cream shop is lowering it's prices to $1.50 a cone.
     Write a function that will calculate the cash that the shop has earned after x days. Then caclulate that for 5, 10,
-    15, 21 and 1001 days.</p>
+    15, 21 and 1001 days.
+    <pre>d(x) = 1.50 * x + 5 
+
+    </pre>
+    <div class="graph-container">
+      <iframe src="https://www.desmos.com/calculator/payx6fptdc?embed" width="200" height="300"
+        style="border: 1px solid #ccc" frameborder=0></iframe>
+    </div>
+    <p>Now at 5 days, d(x) will be.</p>
+    <pre>
+      d(x) = 1.50 * 5 + 5
+      d(x) = 7.50 + 5
+      d(x) = 
+    </pre>
+    
+    <p>Now at 10 days, d(x) will be.</p>
+    <pre>
+    d(x) = 1.50 * 10 + 5
+    d(x) = 10 + 5
+    d(x) = 
+    </pre>
+      
+      <p>Now at 15 days, d(x) will be</p>
+      <pre>
+      d(x) = 1.50 * 15 + 5
+      d(x) = 22.50 + 5
+      d(x) = 
+      </pre>
+
+    <p>Now at 21 days, d(x) will be.</p>
+    <pre>
+      d(x) = 1.50 * 20 + 5
+      d(x) = 30.50 + 5
+      d(x) =
+      </pre>
+
+      <p>Now at a 1001 days, d(x) will be.</p>
+      <pre>
+        d(x) = 1.50 * 1001 + 5
+        d(x) = 1501.50 + 5
+        d(x) = 
+        </pre>
+        <script>
+          let d1;
+          let d2;
+          let d3;
+          let d4;
+          let d5;
+      
+          function d(x) {
+            return x * 1.50 + 5;
+          }</script>
+           <p>
+            For x = 5...
+            d(x) =
+            <script>
+              d1 = x(5);
+              document.write(d1);
+            </script>
+          </p>
+          <p>
+            For x = 10...
+            d(x) =
+            <script>
+              d2 = d(10);
+              document.write(d2);
+            </script>
+          </p>
+          <p>
+            For x = 15...
+            ds(x) =
+            <script>
+              d3 = d(15);
+              document.write(d3);
+            </script>
+          </p>
+          <p>
+            For x = 21...
+            d(x) = 
+            <script>
+              d4 = d(21)
+              document.write(d4)
+            </script>
+          </p>
+          <p>
+            For x = 1001...
+            d(x) = 
+            <script>
+              d5 = d(1001)
+              document.write(d5)
+            </script>
+  </p>
 
   <h4>TODO: You try this one!</h4>
   <p> In the space bellow, write the html tags and javascript code to make your functions. Write the code to write the
